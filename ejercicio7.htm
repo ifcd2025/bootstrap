@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384
+QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body>
+    <h1 class="bg-success text-white text-center p-2 my-2 mx-5">Título</h1>
+    <form action="" class="bg-light p-4 w-50 m-auto mt-3">
+        <h2 class="text-center border-bottom border-danger border-2">Datos de registro</h2>
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" name="nombre" id="nombre" class="form-control">
+        <label for="apellidos" class="form-label">apellidos</label>
+        <input type="text" name="apellidos" id="apellidos" class="form-control">
+        <div class="input-group mt-2 mb-2">
+          <label class="input-group-text" id="email">email</label>
+          <input type="text" class="form-control" name="email" id="email">
+        </div>
+
+        <select name="provincia" id="provincia" class="form-select w-50">
+            <option value="-1">Seleccionar provincia</option>
+            <option value="1">A Coruña</option>
+            <option value="2">Lugo</option>
+            <option value="4">Pontevedra</option>
+        </select>
+        <!-- d-block, ms-auto y me-0 para colocarlo a la derecha.
+         Podíamos usar un div con flex como dicen las instrucciones -->
+        <input type="submit" value="enviar" class="btn btn-primary d-block ms-auto me-0">
+    </form>
+    
+
+</body>
+
+</html>
